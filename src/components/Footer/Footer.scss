@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(248, 249, 250, 1);
+    margin-top: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    div {
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 180px;
+        }
+        .txt {
+            width: 300px;
+            margin-top: 20px;
+        }
+        b {
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        a {
+            margin-top: 15px;
+            font-size: 18px;
+            color: rgb(0, 0, 1);
+        }
+    }
+}
